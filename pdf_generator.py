@@ -148,9 +148,9 @@ def generar_pdf(
     # ======================================================
 
     if moneda == "USD":
-        simbolo = "$"
+        simbolo = "USD"
     else:
-        simbolo = "₡"
+        simbolo = "CRC"
 
     # ======================================================
     # CREAR PDF
